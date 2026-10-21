@@ -1,10 +1,18 @@
+import './App.scss'
 import React from 'react'
-import './App.css'
 
-function App() {
-  
-  return (
-    <></>
+const App = () => {
+  return(
+    <>
+      <header>
+        <button>Navigation</button>
+        <input type="text">
+      </header>
+      <main></main>
+      <footer>
+        <p>Autor : Maksym Volkov</p>
+      </footer>
+    </>
   )
 }
 
