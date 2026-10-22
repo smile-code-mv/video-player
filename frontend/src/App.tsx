@@ -1,18 +1,15 @@
-import './App.scss'
 import React from 'react'
+import Header from './components/Header/Header.tsx'
+import './App.scss'
 
-const App = () => {
-  return(
-    <>
-      <header>
-        <button>Navigation</button>
-        <input type="text">
-      </header>
+function App() {
+  
+  return (
+    <div className="app">
+      <Header />
       <main></main>
-      <footer>
-        <p>Autor : Maksym Volkov</p>
-      </footer>
-    </>
+      <footer></footer>
+    </div>
   )
 }
 
