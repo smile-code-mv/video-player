@@ -1,4 +1,4 @@
-export default type Film = {
+export type Film = {
   id : string
   name : string
   year : number

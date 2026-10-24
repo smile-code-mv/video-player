@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header/Header.tsx'
+import MainPage from './components/MainPage/MainPage.tsx'
 import './App.scss'
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <main></main>
-      <footer></footer>
+      <MainPage />
     </div>
   )
 }
