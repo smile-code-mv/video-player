@@ -1,5 +1,6 @@
 export type Video = {
   id : string
   name : string
-  timeInSeconds : number 
+  timeInSeconds : number
+  backgroundUrl : string
 }
