@@ -1,14 +1,12 @@
 import './MainPage.scss'
 import React from 'react';
-import {type Film} from '../../types/Film.ts'
+import { type Video } from '../Video/typeVideo.ts'
 
-type props = {
-  films : Film[];
-}
-
-const MainPage = ({ films } : props) => {
+const MainPage = ({ videos : Video[] }) => {
   return(
-    <main id="main_page"></main>
+    <main id="main_page">
+
+    </main>
   )
 }
 
