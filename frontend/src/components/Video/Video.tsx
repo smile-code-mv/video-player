@@ -8,3 +8,5 @@ const VideoComponent = ( {id , name , timeInSeconds, backgroundUrl} : Video ) =>
     </div>
   )
 }
+
+export default VideoComponent

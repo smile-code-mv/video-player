@@ -4,9 +4,9 @@
   border: none;
   background-image: url(/white-menu.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  background-color: none;
+  background-color: transparent;
 }
 #search_input{
   padding-left: 4%;
